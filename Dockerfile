@@ -1,3 +1,3 @@
 FROM eclipse-temurin:17-jre
 COPY HolaJava.jar /opt/app/
-CMD ["java", "-jar HolaJava.jar"]
+CMD ["java", "-jar"," HolaJava.jar"]
